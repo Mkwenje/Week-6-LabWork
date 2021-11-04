@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link rel="stylesheet" href="CSS/style.css" >
+
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+
+		document.write("<h1>Lobby</h1>"); //using HTML tags
+
+
+    //IF statement, selection statement
+  var Yes = (prompt(" Accept New Game Mode \n Enter Yes and No")); //take in and parse in one line
+  var No = (prompt("Decline New Game Mode \n Enter Yes and Yes"));
+  if(Yes > No){
+    //when the condition evaluates to true this will be executed
+    alert("You Have Accepted New Game Mode"); //runs this code
+  }
+
+  //IF ELSE statements
+  if(Yes > No){
+    //code to execute when the if statement evaluates to true
+    alert("You Have Accepted New Game Mode"); //runs this code
+  }else{
+    //code to execute when the if statement evaluates to false
+    alert("You Have Declined New Game Mode");
+  }
+
+	</script>
+  </head>
+  <body>
+	<p></p>
+	<a href="js-index.html">Back</a>
+
+  </body>
+</html>
